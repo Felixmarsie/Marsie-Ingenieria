@@ -1,1 +1,14 @@
-# Marsie Ingeniería Web\n\n## 🚀 Publicación en GitHub Pages\n1. Crea un repositorio público en GitHub.\n2. Sube todos estos archivos.\n3. Configura Pages desde Settings -> Pages -> Source: main / (root).\n4. Conecta tu dominio en DonDominio y activa HTTPS.\n\n✅ Tu web profesional multipágina quedará online.
+
+# Marsie Ingeniería Web (Bootstrap)
+
+## 🚀 Publicación en GitHub Pages
+
+1. Crea un repositorio público en GitHub.
+2. Sube todos los archivos de este ZIP (index.html, imágenes, etc.).
+3. Ve a Settings -> Pages.
+4. En Source selecciona branch `main` y carpeta `/ (root)`.
+5. Guarda y espera 1-2 minutos. Tu web estará online en:
+
+https://tuusername.github.io/tu-repo/
+
+✅ Conecta tu dominio desde DonDominio y activa HTTPS.
