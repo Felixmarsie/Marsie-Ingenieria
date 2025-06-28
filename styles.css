@@ -1,0 +1,69 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #9B89B3;
+    padding: 10px 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.logo {
+    height: 40px;
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+}
+.logo-grande {
+    height: 100px;
+    margin-bottom: 20px;
+}
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+    color: #9B89B3;
+}
+.proyectos-grid, .clientes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.proyecto-item, .cliente-item {
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #9B89B3;
+    color: #fff;
+}
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
