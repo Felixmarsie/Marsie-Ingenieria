@@ -4,10 +4,10 @@
 ## 🚀 Publicación en GitHub Pages
 
 1. Crea un repositorio público en GitHub.
-2. Sube los archivos `index.html`, `styles.css` y tu logo SVG.
+2. Sube los archivos `index.html`, `styles.css`, `favicon.svg`, `buildings.svg` y tu logo SVG.
 3. Ve a Settings -> Pages.
 4. En Source, selecciona branch `main` y carpeta root `/`.
-5. Guarda y espera 1-2 minutos. Tu web estará en:
+5. Guarda y espera 1-2 minutos. Tu web estará online en:
 
 https://tuusername.github.io/tu-repo/
 
