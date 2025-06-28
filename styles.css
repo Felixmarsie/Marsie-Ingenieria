@@ -1,5 +1,5 @@
 
-body { font-family: Montserrat, sans-serif; background: #f4f4f4; color: #333; }
+body { font-family: Montserrat, sans-serif; background: #f4f4f4; color: #333; margin: 0; }
 h1 { color: #9B89B3; }
 .logo-container img {
   opacity: 0;
