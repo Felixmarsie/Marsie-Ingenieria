@@ -3,3 +3,4 @@ body { font-family: Montserrat, sans-serif; background: #f4f4f4; color: #333; ma
 h1, h2 { color: #9B89B3; }
 img { max-width: 100%; height: auto; }
 .card { margin-bottom: 20px; }
+.navbar { box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
