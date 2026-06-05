@@ -1,52 +1,137 @@
-
 <!DOCTYPE html>
-<html lang='es'>
+<html lang="es">
+
 <head>
-  <meta charset='UTF-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <title>Quienessomos - Marsie Ingeniería</title>
-  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css' rel='stylesheet'>
-  <link rel='stylesheet' href='styles.css'>
-  <link rel='icon' type='image/png' href='favicon.png'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiénes somos | Marsie Ingeniería</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="favicon.png">
 </head>
+
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #9B89B3;">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="index.html"><img src="Marsie SVG trans.svg" alt="Marsie Logo" style="max-height:40px;"></a>
+    <a class="navbar-brand" href="index.html">
+      <img src="Marsie SVG trans.svg" alt="Marsie Ingeniería">
+    </a>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="quienessomos.html">Quiénes somos</a></li>
+        <li class="nav-item"><a class="nav-link active" href="quienessomos.html">Quiénes somos</a></li>
         <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
         <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
-        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link btn-contacto" href="contacto.html">Contacto</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
+<section class="container section">
+  <div class="section-title">
+    <span>Quiénes somos</span>
+    <h1>Ingeniería técnica cercana, resolutiva y orientada a obra.</h1>
+    <p>
+      Marsie Ingeniería es un estudio técnico especializado en el desarrollo, dirección y legalización de instalaciones en Canarias.
+    </p>
+  </div>
 
-<section class="container my-5">
-  <h1>Quiénes somos</h1>
-  <div class="row">
-    <div class="col-md-6">
-      <p>Félix Martín Sierra, Ingeniero Técnico Industrial especializado en mecánica, máster en energías renovables. Con amplia experiencia en proyectos, instalaciones, dirección de obra y estudios técnicos en el sector, aportando valor a cada cliente con profesionalidad y cercanía.</p>
+  <div class="row g-4 align-items-stretch">
+    <div class="col-lg-7">
+      <div class="service-card">
+        <h3>Sobre Marsie Ingeniería</h3>
+        <p>
+          Marsie Ingeniería nace con el objetivo de ofrecer soluciones técnicas rigurosas, ágiles y adaptadas a cada proyecto.
+          Trabajamos en el ámbito de las instalaciones eléctricas, climatización, ventilación, PCI, fontanería, saneamiento,
+          fotovoltaica, actividades y legalizaciones.
+        </p>
+        <br>
+        <p>
+          El estudio está dirigido por Félix Martín Sierra, Ingeniero Técnico Industrial, con experiencia en proyectos de edificación residencial,
+          hoteles, clínicas, locales comerciales, infraestructuras portuarias, instalaciones fotovoltaicas y direcciones de obra.
+        </p>
+      </div>
     </div>
-    <div class="col-md-6">
-      <img src="images/equipo.jpg" class="img-fluid rounded shadow" alt="Equipo Marsie Ingeniería">
+
+    <div class="col-lg-5">
+      <div class="service-card">
+        <h3>Forma de trabajo</h3>
+        <p>
+          Combinamos cálculo técnico, conocimiento normativo y criterio práctico de obra para que cada instalación sea viable,
+          justificable y ejecutable.
+        </p>
+        <br>
+        <p>
+          Nuestro objetivo es acompañar al cliente desde el diseño inicial hasta la legalización final, evitando soluciones genéricas
+          y priorizando siempre la seguridad, la eficiencia y la claridad documental.
+        </p>
+      </div>
     </div>
   </div>
 </section>
 
+<section class="projects-section">
+  <div class="container section">
+    <div class="section-title">
+      <span>Especialización</span>
+      <h2>Ámbitos de actuación</h2>
+    </div>
 
-<footer style="background:#9B89B3; color:white; text-align:center; padding:20px; margin-top:50px;">
-  <p>&copy; 2025 Marsie Ingeniería. Todos los derechos reservados.</p>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="project-card">
+          <h3>Edificación residencial</h3>
+          <p>Instalaciones completas para viviendas, garajes y zonas comunes.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="project-card">
+          <h3>Hoteles y terciario</h3>
+          <p>Climatización, ACS, ventilación, electricidad, PCI y legalizaciones.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="project-card">
+          <h3>Fotovoltaica</h3>
+          <p>Autoconsumo, inversores, baterías, documentación técnica y tramitación.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="project-card">
+          <h3>Dirección de obra</h3>
+          <p>Seguimiento técnico, certificaciones, coordinación y control de ejecución.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <h2>¿Tienes un proyecto en marcha?</h2>
+    <p>Podemos ayudarte a definir, justificar y legalizar las instalaciones necesarias.</p>
+    <a href="contacto.html" class="btn btn-light btn-lg">Contactar</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2025 Marsie Ingeniería. Todos los derechos reservados.</p>
+  </div>
 </footer>
 
-<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
