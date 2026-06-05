@@ -222,73 +222,63 @@ footer p {
   margin: 0;
 }
 
-/* ==========================
-   MÓVIL Y TABLET
-========================== */
+/* MÓVIL */
 
 @media (max-width: 768px) {
 
   body {
-    padding-top: 90px;
+    padding-top: 76px;
     overflow-x: hidden;
   }
 
-  .container {
-    padding-left: 28px !important;
-    padding-right: 28px !important;
-    max-width: 100%;
-  }
-
-  .hero {
-    margin-top: -90px;
+  .navbar {
+    padding: 4px 0;
   }
 
   .navbar-brand img {
-    height: 50px;
+    height: 42px !important;
+    max-height: 42px !important;
   }
 
-  .navbar .nav-link {
-    margin-left: 0;
-    padding: 10px 0;
+  .navbar-toggler {
+    padding: 6px 9px;
   }
 
-  .btn-contacto {
-    margin-top: 8px;
-    display: inline-block;
+  .container,
+  .container-fluid {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 34px !important;
+    padding-right: 34px !important;
   }
 
-  .section {
-    padding-top: 48px;
-    padding-bottom: 48px;
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 
-  .section-title {
-    margin-bottom: 28px;
+  .hero {
+    margin-top: -76px;
   }
 
-  .section-title span {
-    font-size: 0.85rem;
-    letter-spacing: 1.2px;
+  .hero .container {
+    padding-left: 34px !important;
+    padding-right: 34px !important;
   }
 
-  .section-title h1,
-  .section-title h2 {
-    font-size: 2rem;
-    line-height: 1.15;
-  }
-
-  .section-title p {
-    font-size: 1rem;
-    line-height: 1.55;
+  .hero-tag {
+    font-size: 0.78rem;
+    letter-spacing: 1.4px;
   }
 
   .hero h1 {
-    font-size: 2.15rem;
+    font-size: 2.05rem;
     line-height: 1.12;
   }
 
   .hero-text {
     font-size: 1rem;
+    line-height: 1.55;
   }
 
   .hero-buttons {
@@ -300,6 +290,31 @@ footer p {
     width: 100%;
   }
 
+  .section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .section-title {
+    margin-bottom: 30px;
+  }
+
+  .section-title span {
+    font-size: 0.82rem;
+    letter-spacing: 1.2px;
+  }
+
+  .section-title h1,
+  .section-title h2 {
+    font-size: 1.9rem;
+    line-height: 1.15;
+  }
+
+  .section-title p {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
   .service-card,
   .project-card {
     padding: 24px;
@@ -308,7 +323,7 @@ footer p {
 
   .service-card h3,
   .project-card h3 {
-    font-size: 1.45rem;
+    font-size: 1.35rem;
     line-height: 1.2;
   }
 
@@ -319,14 +334,14 @@ footer p {
   }
 
   .project-card img {
-    height: 190px;
+    height: 185px;
   }
 
   .cta {
-    padding: 56px 24px;
+    padding: 54px 34px;
   }
 
   .cta h2 {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 }
