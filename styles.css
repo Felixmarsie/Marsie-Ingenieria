@@ -1,3 +1,4 @@
+```css
 :root {
   --marsie: #9B89B3;
   --marsie-dark: #5f4b78;
@@ -12,18 +13,18 @@ body {
   background: var(--bg);
   color: var(--text);
   margin: 0;
-  padding-top: 86px;
+  padding-top: 110px;
 }
 
 .navbar {
   background: rgba(255,255,255,0.96) !important;
   backdrop-filter: blur(12px);
   box-shadow: 0 8px 30px rgba(35,25,48,0.10);
-  padding: 10px 0;
+  padding: 2px 0;
 }
 
 .navbar-brand img {
-  height: 62px;
+  height: 105px;
   width: auto;
   transition: transform 0.25s ease;
 }
@@ -78,7 +79,7 @@ body {
 }
 
 .hero {
-  margin-top: -86px;
+  margin-top: -110px;
   background:
     linear-gradient(120deg, rgba(35,25,48,0.88), rgba(155,137,179,0.52)),
     url("images/terminal_laspalmas.jpg") center/cover no-repeat;
@@ -222,16 +223,17 @@ footer p {
 }
 
 @media (max-width: 768px) {
+
   body {
-    padding-top: 76px;
+    padding-top: 90px;
   }
 
   .hero {
-    margin-top: -76px;
+    margin-top: -90px;
   }
 
   .navbar-brand img {
-    height: 52px;
+    height: 70px;
   }
 
   .btn-contacto {
@@ -247,3 +249,4 @@ footer p {
     height: 190px;
   }
 }
+```
