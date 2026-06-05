@@ -1,54 +1,120 @@
-
+```html
 <!DOCTYPE html>
-<html lang='es'>
+<html lang="es">
 <head>
-  <meta charset='UTF-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <title>Proyectos - Marsie Ingeniería</title>
-  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css' rel='stylesheet'>
-  <link rel='stylesheet' href='styles.css'>
-  <link rel='icon' type='image/png' href='favicon.png'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos | Marsie Ingeniería</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
+
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #9B89B3;">
-  <div class="container">
-    <a class="navbar-brand" href="index.html"><img src="Marsie SVG trans.svg" alt="Marsie Logo" style="max-height:40px;"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navMenu">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="quienessomos.html">Quiénes somos</a></li>
-        <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
-        <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
-        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-      </ul>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+            <img src="Marsie SVG trans.svg" alt="Marsie Ingeniería" style="max-height:40px;">
+            <span>Marsie Ingeniería</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="quienessomos.html">Quiénes somos</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link active" href="proyectos.html">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link btn-contacto" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
 
+<section class="container section">
+    <div class="section-title">
+        <span>Experiencia</span>
+        <h1>Proyectos destacados</h1>
+        <p>
+            Algunos de los proyectos desarrollados por Marsie Ingeniería en los ámbitos
+            residencial, hotelero, portuario, industrial y terciario.
+        </p>
+    </div>
 
-<section class="container my-5">
-  <h1>Proyectos</h1>
-  <div class="row">
-    <div class="col-md-4 mb-4"><img src="images/tamadaba.jpg" class="img-fluid rounded shadow" alt="Tamadaba II-III"><p class="mt-2">Tamadaba II-III (Metrovacesa)</p></div>
-    <div class="col-md-4 mb-4"><img src="images/hubara.jpg" class="img-fluid rounded shadow" alt="Hubara"><p class="mt-2">Hubara (Realia)</p></div>
-    <div class="col-md-4 mb-4"><img src="images/terminal_laspalmas.jpg" class="img-fluid rounded shadow" alt="Terminal Las Palmas"><p class="mt-2">Terminal de cruceros Las Palmas (Global Ports)</p></div>
-    <div class="col-md-4 mb-4"><img src="images/terminal_fuerteventura.jpg" class="img-fluid rounded shadow" alt="Terminal Fuerteventura"><p class="mt-2">Terminal Fuerteventura (Global Ports)</p></div>
-    <div class="col-md-4 mb-4"><img src="images/terminal_naos.jpg" class="img-fluid rounded shadow" alt="Terminal Naos"><p class="mt-2">Terminal Naos y Mármol (Global Ports)</p></div>
-    <div class="col-md-4 mb-4"><img src="images/hotel_masanet.jpg" class="img-fluid rounded shadow" alt="Hotel Masanet"><p class="mt-2">Hotel Masanet (Mandarin Hotels)</p></div>
-    <div class="col-md-4 mb-4"><img src="images/hotel_triana54.jpg" class="img-fluid rounded shadow" alt="Hotel Triana 54"><p class="mt-2">Hotel Triana 54 (Fahana Hotels)</p></div>
-    <div class="col-md-4 mb-4"><img src="images/promocion_oase.jpg" class="img-fluid rounded shadow" alt="Promoción OASE"><p class="mt-2">Promoción OASE (Aedas Homes)</p></div>
-  </div>
+    <div class="row g-4">
+
+        <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+                <img src="images/tamadaba.jpg" class="img-fluid rounded mb-3" alt="Tamadaba II-III">
+                <h3>Tamadaba II-III</h3>
+                <p>Promoción residencial desarrollada para Metrovacesa.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+                <img src="images/hubara.jpg" class="img-fluid rounded mb-3" alt="Hubara">
+                <h3>Hubara</h3>
+                <p>Promoción residencial desarrollada para Realia.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+                <img src="images/terminal_laspalmas.jpg" class="img-fluid rounded mb-3" alt="Terminal Las Palmas">
+                <h3>Terminal de Cruceros Las Palmas</h3>
+                <p>Instalaciones eléctricas, PCI, climatización y fotovoltaica.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+                <img src="images/terminal_fuerteventura.jpg" class="img-fluid rounded mb-3" alt="Terminal Fuerteventura">
+                <h3>Terminal de Cruceros Fuerteventura</h3>
+                <p>Proyecto de instalaciones para terminal portuaria.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+                <img src="images/terminal_naos.webp" class="img-fluid rounded mb-3" alt="Terminal Naos">
+                <h3>Terminal Naos y Mármol</h3>
+                <p>Infraestructura portuaria desarrollada para Global Ports.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+                <img src="images/hotel_masanet.png" class="img-fluid rounded mb-3" alt="Hotel Masanet">
+                <h3>Hotel Masanet</h3>
+                <p>Proyecto de instalaciones para complejo hotelero.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+                <img src="images/promocion_oase.png" class="img-fluid rounded mb-3" alt="Promoción OASE">
+                <h3>Promoción OASE</h3>
+                <p>Proyecto residencial desarrollado para AEDAS Homes.</p>
+            </div>
+        </div>
+
+    </div>
 </section>
 
-
-<footer style="background:#9B89B3; color:white; text-align:center; padding:20px; margin-top:50px;">
-  <p>&copy; 2025 Marsie Ingeniería. Todos los derechos reservados.</p>
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Marsie Ingeniería. Todos los derechos reservados.</p>
+    </div>
 </footer>
 
-<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
+```
